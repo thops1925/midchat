@@ -2,19 +2,19 @@ import Avatar from '@mui/material/Avatar';
 
 function ChannelListContainer() {
   return (
-    <div className="flex-1 h-screen ">
-      <div className="flex space-y-between flex-col">
+    <div className="flex-1 h-screen">
+      <div className="flex space-y-between flex-col bg-gray-100">
         <div className=" flex items-center p-3 border-b-2">
           <Avatar sx={{ width: 32, height: 32 }} />
           <p className="ml-2 text-lg font-bold text-gray-800">Dr Lumen</p>
         </div>
       </div>
 
-      <div className="h-3/4 flex-none  p-4 overflow-y-auto scrollbar-hide">
-        <div className="flex flex-col-reverse">
+      <div className="h-3/4 flex-none  p-4 overflow-y-auto  bg-gray-5 scrollbar-hide">
+        <div className="flex flex-col-reverse space-y-50">
           <div className="flex flex-row-reverse ">
             <Avatar />
-            <p className="flex flex-nowrap bg-blue-200 p-5 rounded-sm max-w-lg text-justify min-w-min overflow-ellipsis	">
+            <p className="flex flex-nowrap bg-blue-200 p-5 rounded-sm max-w-lg text-justify min-w-min overflow-ellipsis m-5">
               sadfasdfsadfasdfsadfasdfsadfasdfsadfa
               sdfsadfasdfsadfasdfsadfasdfsadfasdfsadfasdf
               sadfasdfsadfasdfsadfasdfsadfasdfsadfasdfsadfasdfsadfasdfsadfa
@@ -31,84 +31,23 @@ function ChannelListContainer() {
             </p>
           </div>
 
-          <div className="flex flex-row">
-            <Avatar />
-            <p className="inline-block bg-gray-200 rounded-sm p-5 max-w-lg text-justify overflow-ellipsis">
-              messageasfddddddddddddddddddddddddddddsaffffffffffffffffffffffffffffff
-              ffffffffsafffffffffffffffffsadffffffffffffffffaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaffffffffff
-            </p>
-          </div>
-          <div className="flex flex-row-reverse space-x-2 space-x-reverse">
-            <Avatar />
-            <p className="bg-blue-200 p-5 rounded-sm">sadfasdf</p>
-          </div>
-
           <div className="flex flex-row space-x-2">
             <Avatar />
-            <div className="">message</div>
-          </div>
-          <div className="flex flex-row-reverse space-x-2 space-x-reverse">
-            <Avatar />
-            <p className="bg-blue-200 p-5 rounded-sm">sadfasdf</p>
-          </div>
-
-          <div className="flex flex-row space-x-2">
-            <Avatar />
-            <div className="">message</div>
-          </div>
-          <div className="flex flex-row-reverse space-x-2 space-x-reverse">
-            <Avatar />
-            <p className="bg-blue-200 p-5 rounded-sm">sadfasdf</p>
-          </div>
-
-          <div className="flex flex-row space-x-2">
-            <Avatar />
-            <div className="">message</div>
-          </div>
-          <div className="flex flex-row-reverse space-x-2 space-x-reverse">
-            <Avatar />
-            <p className="bg-blue-200 p-5 rounded-sm">sadfasdf</p>
-          </div>
-
-          <div className="flex flex-row space-x-2">
-            <Avatar />
-            <div className="">message</div>
-          </div>
-          <div className="flex flex-row-reverse space-x-2 space-x-reverse">
-            <Avatar />
-            <p className="bg-blue-200 p-5 rounded-sm">sadfasdf</p>
-          </div>
-
-          <div className="flex flex-row space-x-2">
-            <Avatar />
-            <div className="">message</div>
-          </div>
-          <div className="flex flex-row-reverse space-x-2 space-x-reverse">
-            <Avatar />
-            <p className="bg-blue-200 p-5 rounded-sm">sadfasdf</p>
-          </div>
-
-          <div className="flex flex-row space-x-2">
-            <Avatar />
-            <div className="">message</div>
-          </div>
-          <div className="flex flex-row-reverse space-x-2 space-x-reverse">
-            <Avatar />
-            <p className="bg-blue-200 p-5 rounded-sm">sadfasdf</p>
-          </div>
-
-          <div className="flex flex-row space-x-2">
-            <Avatar />
-            <div className="">message</div>
-          </div>
-          <div className="flex flex-row-reverse space-x-2 space-x-reverse">
-            <Avatar />
-            <p className="bg-blue-200 p-5 rounded-sm">sadfasdf</p>
-          </div>
-
-          <div className="flex flex-row space-x-2">
-            <Avatar />
-            <div className="">message</div>
+            <div className="flex flex-nowrap bg-blue-200 p-5 rounded-sm max-w-lg text-justify min-w-min overflow-ellipsis m-5">
+              sadfasdfsadfasdfsadfasdfsadfasdfsadfa
+              sdfsadfasdfsadfasdfsadfasdfsadfasdfsadfasdf
+              sadfasdfsadfasdfsadfasdfsadfasdfsadfasdfsadfasdfsadfasdfsadfa
+              asfassadfasdfsadfasdfsadfasdfsadfasdfsadfa
+              sdfsasadfasdfsadfasdfsadfasdfsadfasdfsadfasdf
+              sadfasdfsadfasdfsadfasdfsadfasdfsadfasdfsadfasdfsadfasdfsadfa
+              asfassadfasdfsadfasdfsadfasdfsadfasdfsadfa
+              sdfsadfasdfsadfasdfsadfasdfsadfasdfsadfasdf
+              sadfasdfsadfasdfsadfasdfsadfasdfsadfasdfsadfasdfsadfasdfsadfaassadf
+              asfassadfasdfsadfasdfsadfasdfsadfasdfsadfa
+              sdfsadfasdfsadfasdfsadfasdfsadfasdfsadfasdf
+              sadfasdfsadfasdfsadfasdfsadfasdfsadfasdfsadfasdfsadfasdfsadfa
+              asfas
+            </div>
           </div>
         </div>
       </div>

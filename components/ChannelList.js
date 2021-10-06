@@ -3,9 +3,9 @@ import Avatar from '@mui/material/Avatar';
 
 const ChannelList = () => {
   return (
-    <div className="flex flex-row sm:w-1/6 md:1/4 lg:1/4 md:h-screen lg:h-screen sm:h-screen bg-blue-700 rounded-r-lg">
-      <div className="flex-auto">
-        <div className="flex justify-center text-gray-100 items-center h-24 font-bold text-2xl border-b-2 border-gray-300 shadow-lg">
+    <div className="flex flex-row sm:w-1/6 md:1/4 lg:1/4 md:h-screen lg:h-screen h-screen sm:h-screen bg-blue-900 rounded-r-lg">
+      <div className="flex-auto ">
+        <div className="flex justify-center text-gray-100 items-center h-20 font-bold text-2xl border-b-2 border-gray-300 shadow-lg">
           Thopz
         </div>
         <div className="flex justify-center mt-4 items-center px-4 bg-blue-300 rounded-lg m-2 h-14">
