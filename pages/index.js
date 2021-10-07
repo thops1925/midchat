@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { StreamChat } from 'stream-chat';
 import { Chat } from 'stream-chat-react';
 // import Cookies from 'universal-cookie ';
-import { ChannelListContainer, ChannelList } from '../components';
+import { SideBar, ChannelListContainer, ChannelList } from '../components';
 
 const client = StreamChat.getInstance(process.env.api_key);
 
@@ -16,6 +16,7 @@ export default function Home() {
       </Head>
 
       <Chat client={client} theme="team light">
+        <SideBar />
         <ChannelList />
         <ChannelListContainer />
       </Chat>

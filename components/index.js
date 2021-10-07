@@ -1,2 +1,10 @@
 export { default as ChannelList } from './ChannelList';
 export { default as ChannelListContainer } from './ChannelListContainer';
+export { default as ListHeader } from './ListHeader';
+export { default as ListSearch } from './ListSearch';
+export { default as ListChannels } from './ListChannels';
+export { default as ListMessage } from './ListMessage';
+export { default as SideBar } from './SideBar';
+export { default as ContainerHeader } from './ContainerHeader';
+export { default as ContainerMessage } from './ContainerMessage';
+export { default as ContainerInputs } from './ContainerInputs';
