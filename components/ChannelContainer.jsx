@@ -1,5 +1,5 @@
-import { ContainerHeader, ContainerInputs, ContainerMessage } from './';
-function ChannelListContainer() {
+import { ContainerHeader, ContainerInputs, ContainerMessage } from '.';
+function ChannelContainer() {
   return (
     <div className="flex-1 h-screen">
       <ContainerHeader />
@@ -11,4 +11,4 @@ function ChannelListContainer() {
   );
 }
 
-export default ChannelListContainer;
+export default ChannelContainer;

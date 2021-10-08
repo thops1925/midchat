@@ -1,5 +1,5 @@
-export { default as ChannelList } from './ChannelList';
-export { default as ChannelListContainer } from './ChannelListContainer';
+export { default as ChannelListContainer } from './ChannelListContainerList';
+export { default as ChannelContainer } from './ChannelContainer';
 export { default as ListHeader } from './ListHeader';
 export { default as ListSearch } from './ListSearch';
 export { default as ListChannels } from './ListChannels';
