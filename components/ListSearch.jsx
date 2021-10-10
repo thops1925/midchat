@@ -13,10 +13,11 @@ function ListSearch() {
     }
   };
 
-  const search = (e) => {
+  const OnSearch = (e) => {
     e.preventDefault();
     setLoading(true);
     setQuery(e.target.value);
+    getChannels(e.target.value);
   };
   return (
     <div className="flex justify-center mt-4 items-center px-4 bg-blue-400 rounded-lg m-2 h-14">
@@ -38,6 +39,7 @@ function ListSearch() {
         type="text"
         value={query}
         placeholder="Search"
+        onChange={OnSearch}
         className=" placeholder-gray-100 bg-blue-400 p-4 w-full h-12 rounded-lg outline-none focus-outline-none focus-ring text-gray-100"
       />
     </div>

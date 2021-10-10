@@ -1,8 +1,28 @@
-function ListChannels() {
+function ListChannels({ children, error = false, loading, type }) {
+  if (error) {
+    return type === 'team' ? (
+      <div>
+        <p>Connection error,please wait of try again</p>
+      </div>
+    ) : null;
+  }
+  if (loading) {
+    return (
+      <div>
+        <p>
+          {type === 'team' ? 'Channels' : 'Messages'}
+          loading...
+        </p>
+      </div>
+    );
+  }
+
   return (
     <>
       <div className="flex justify-between p-4">
-        <div className="text-gray-300 font-bold">Channels</div>
+        <div className="text-gray-300 font-bold">
+          <p>{type === 'team' ? 'Channels' : 'Direct Messages'}</p>
+        </div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-6 w-6 text-gray-300 rounded-full"
