@@ -1,6 +1,6 @@
-import Avatar from '@mui/material/Avatar';
-
-function ListMessage() {
+import { Avatar, useChatContext } from 'stream-chat-react';
+function ListMessage({ channel, type }) {
+  const { channel: activeChannel, client } = useChatContext();
   return (
     <>
       <div className="flex justify-between p-4">
@@ -22,7 +22,7 @@ function ListMessage() {
       </div>
       <div className="h-1/2 flex-auto overflow-y-auto scrollbar-hide ">
         <div className=" flex items-center p-3   hover:bg-blue-800 rounded-md mx-3">
-          <Avatar sx={{ width: 32, height: 32 }} />
+          <Avatar />
           <p className="ml-2 text-lg text-gray-300">Dr Lumen</p>
         </div>
       </div>
